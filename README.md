@@ -1,52 +1,51 @@
 # Lending Club Case Study
-> Outline a brief description of your project.
 
+## Overview
+This project involves an exploratory data analysis (EDA) on the loan data of a consumer finance company to identify the key variables driving risk analysis.
 
 ## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
-
-<!-- You can include any other section that is pertinent to your problem -->
+* [General Information](#general-information)
+* [Data Processing](#data-processing)
+* [Exploratory Data Analysis](#exploratory-data-analysis)
+* [Conclusion](#conclusion)
+* [Programming Language and Libraries Used](#programming-language-and-libraries-used)
+* [Contact](#contact)
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- The project utilizes loan data and its data dictionary, providing a foundation for EDA.
+- Prior to analysis, data cleaning and manipulation are necessary steps.
+- The identification of numerical and categorical variables, along with metric derivation, is crucial.
+- Univariate and bivariate analysis will be conducted.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+## Data Processing
+To prepare the data for analysis, the following steps are performed:
+- Cleaning and handling missing values.
+- Exploring and addressing outliers.
+- Transforming variables for better representation.
+- Feature engineering to derive relevant metrics.
 
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+## Exploratory Data Analysis
+EDA involves the examination of key factors influencing the risk of loan default. This includes:
+- Visualization of trends and patterns.
+- Uncovering relationships between variables.
+- Identification of outliers and influential data points.
+- Statistical insights into the dataset.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+## Conclusion
+The study has identified five driving factors influencing the probability of loan default:
+1. Term
+2. Employee length
+3. Annual income
+4. Purpose
+5. Grade
 
-
-## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
+## Programming Language and Libraries Used
+- Language: Python 3.11.5
+- Libraries: Pandas (v  2.0.3), Seaborn (v0.12.2)  
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
+Created by [@Sumanth2021](https://github.com/Sumanth2021) and [@varunlaroiya](https://github.com/varunlaroiya) - Feel free to contact me!
 
 <!-- Optional -->
 <!-- ## License -->
 <!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
